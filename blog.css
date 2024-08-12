@@ -1,0 +1,152 @@
+*{margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+body {
+   font-family: 'Arial', sans-serif;
+   background: #f5f5f5;
+   color: #333;
+   line-height: 1.6;
+}
+
+
+header {
+   background: #2c3e50;
+   color: #ecf0f1;
+   padding: 1.5em 2em;
+   text-align: center;
+   border-bottom: 4px solid #e74c3c;
+}
+
+
+nav a {
+   color: #ecf0f1;
+   margin: 0 1em;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+
+nav a:hover {
+   text-decoration: underline;
+}
+
+
+main {
+   padding: 2em;
+   background: #fff;
+   max-width: 1200px;
+   margin: auto;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+#posts-container {
+   margin-top: 2em;
+}
+
+
+.post {
+   background: #f9f9f9;
+   border: 1px solid #ddd;
+   border-radius: 8px;
+   padding: 1.5em;
+   margin-bottom: 1em;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   position: relative;
+}
+
+
+.post h3 {
+   margin-top: 0;
+}
+
+
+.post button {
+   background:red;
+   color: #fff;
+   border: none;
+   padding: 0.5em 1em;
+   margin-right: 0.5em;
+   cursor: pointer;
+   border-radius: 4px;
+   transition: background 0.3s ease;
+}
+
+
+
+
+
+
+.post button:hover {
+   background: #c0392b;
+}
+
+
+#post-form input, #post-form textarea, #post-form select {
+   display: block;
+   margin: 1em 0;
+   padding: 0.7em;
+   width: calc(100% - 1.4em);
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   font-size: 1em;
+}
+
+
+#post-form button {
+   background: #3498db;
+   color: #fff;
+   border: none;
+   padding: 0.7em;
+   cursor: pointer;
+   border-radius: 4px;
+   font-size: 1em;
+   transition: background 0.3s ease;
+}
+
+
+#post-form button:hover {
+   background: #2980b9;
+}
+
+
+footer {
+   background: #2c3e50;
+   color: #ecf0f1;
+   text-align: center;
+   padding: 1em;
+   position: fixed;
+   width: 100%;
+   bottom: 0;
+   border-top: 4px solid #e74c3c;
+}
+
+
+footer a {
+   color: #ecf0f1;
+   text-decoration: none;
+}
+
+
+footer a:hover {
+   text-decoration: underline;
+}
+
+
+
+
+@media (max-width: 768px) {
+   main {
+       padding: 1em;
+   }
+
+
+   nav a {
+       display: block;
+       margin: 0.5em 0;
+   }
+}
